@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Styling for the Projects Section */
+.projects {
+    padding: 20px;
+}
+
+.projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+.projects li {
+    background: #ffffff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for Skills Section */
+.skills {
+    padding: 20px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    background: #3498db;
+    color: white;
+    border-radius: 20px;
+}
+
+/* Styling for Links */
+.links a {
+    color: #3498db;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the Portfolio Topic Section */
+dl {
+    padding: 20px;
+    background: #ecf0f1;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+dl dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dl dd {
+    margin: 0 0 10px 20px;
+}
+
+/* Quote Style */
+blockquote {
+    margin: 20px;
+    padding: 15px;
+    border-left: 5px solid #3498db;
+    background: #ecf0f1;
+    font-style: italic;
+    font-size: 1.2em;
+    color: #2c3e50;
+}
